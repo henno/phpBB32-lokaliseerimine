@@ -1,13 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2017-07-23 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -41,8 +48,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'The service for controller “<strong>%s</strong>” is not defined in ./config/services.yml.',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Puuduv väärtus argumendile #%1$s: <strong>%3$s</strong> klassis <strong>%2$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Ühtegi kontrollerit ei ole määratletud.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Ühtegi tegevusviisi ei ole määratletud kontrollerile.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Teenus kontrollerile “<strong>%s</strong>” ei ole määratletud kohas ./config/services.yml.',
 ));
