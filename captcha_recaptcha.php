@@ -17,7 +17,6 @@
 * @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
-
 /**
 * DO NOT CHANGE
 */
@@ -25,12 +24,10 @@ if (!defined('IN_PHPBB'))
 {
 	exit;
 }
-
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -42,30 +39,15 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'K&amp;V CAPTCHA',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'See küsimus võimaldab ennetada automaatseid sisestusi.',
-	'CONFIRM_QUESTION_WRONG'	=> 'Sisestasid ebakorrektse kinnitusküsimuse.',
-	'CONFIRM_QUESTION_MISSING'	=> 'Kontrollküsimust CAPTCHA jaoks ei õnnestunud kuvada. Palun võtke ühendust foorumi administraatoriga.',
-
-	'QUESTION_ANSWERS'			=> 'Vastused',
-	'ANSWERS_EXPLAIN'			=> 'Palun sisesta lubatavad vastused küsimusele, üks iga rea kohta.',
-	'CONFIRM_QUESTION'			=> 'Küsimus',
-
-	'ANSWER'					=> 'Vastus',
-	'EDIT_QUESTION'				=> 'Muuda küsimust',
-	'QUESTIONS'					=> 'Küsimused',
-	'QUESTIONS_EXPLAIN'			=> 'Registreerimise ajal küsitakse kasutajalt ühte neist küsimustest. Et kasutada seda lisa, pead sisestama vähemalt ühe küsimuse vaikimisi keeles. Need küsimused peaksid olema lihtsad inimestele vastamiseks, kuid võimatud robotidel neile veebiotsingute teel vastata. Parima tulemuse toob paljude ja regulaarselt muudetevate küsimuste kasutamine. Luba range seade, kui õige vastus sõltub tõusutundlikkusest ja kirjavahemärkidest.',
-	'QUESTION_DELETED'			=> 'Küsimus kustutatud',
-	'QUESTION_LANG'				=> 'Keel',
-	'QUESTION_LANG_EXPLAIN'		=> 'Keel, milles see küsimused ja tema vastused on kirjutatud.',
-	'QUESTION_STRICT'			=> 'Range kontroll',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Kui lubatud, eristatakse suurtähti ja tühikuid.',
-
-	'QUESTION_TEXT'				=> 'Küsimus',
-	'QUESTION_TEXT_EXPLAIN'		=> 'Küsimus, mis esitatakse registreerumisel.',
-
-	'QA_ERROR_MSG'				=> 'Palun täida kõik väljad ja sisesta vähemalt üks vastus.',
-	'QA_LAST_QUESTION'			=> 'Sa ei saa kustutada kõiki küsimusi, kuni moodul on aktiivne.'
+	'RECAPTCHA_LANG'				=> 'et',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Et kasutada reCaptcha funktsiooni, pead looma omale kasutajakonto <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> veebilehel.',
+	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
+	'RECAPTCHA_INCORRECT'			=> 'Sisestatud visuaalkinnitus oli ebakorrektne',
+	'RECAPTCHA_NOSCRIPT'			=> 'Palun luba oma brauseris JavaScript, et saaksime laadida ülesande.',
+	'RECAPTCHA_PUBLIC'				=> 'Avalik reCaptcha võti',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Sinu avalik reCaptcha võti. Võtmeid on võimalik saada <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> veebilehelt.',
+	'RECAPTCHA_PRIVATE'				=> 'Privaatne reCaptcha võti',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Sinu privaatne reCaptcha võti. Võtmeid on võimalik saada <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> veebilehelt.',
+	'RECAPTCHA_EXPLAIN'				=> 'Et ennetada automaatseid teateid, nõuame, et sisestaksid mõlemad sõnad tekstivälja.',
 ));
