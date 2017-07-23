@@ -1,13 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2017-07-23 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -37,28 +44,28 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Q&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'This question is a means of preventing automated form submissions by spambots.',
-	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the question.',
-	'CONFIRM_QUESTION_MISSING'	=> 'Questions for the captcha could not be retrieved. Please contact a board administrator.',
+	'CAPTCHA_QA'				=> 'K&amp;V CAPTCHA',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'See küsimus võimaldab ennetada automaatseid sisestusi.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Sisestasid ebakorrektse kinnitusküsimuse.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Kontrollküsimust CAPTCHA jaoks ei õnnestunud kuvada. Palun võtke ühendust foorumi administraatoriga.',
 
-	'QUESTION_ANSWERS'			=> 'Answers',
-	'ANSWERS_EXPLAIN'			=> 'Please enter valid answers to the question, one per line.',
-	'CONFIRM_QUESTION'			=> 'Question',
+	'QUESTION_ANSWERS'			=> 'Vastused',
+	'ANSWERS_EXPLAIN'			=> 'Palun sisesta lubatavad vastused küsimusele, üks iga rea kohta.',
+	'CONFIRM_QUESTION'			=> 'Küsimus',
 
-	'ANSWER'					=> 'Answer',
-	'EDIT_QUESTION'				=> 'Edit Question',
-	'QUESTIONS'					=> 'Questions',
-	'QUESTIONS_EXPLAIN'			=> 'For every form submission where you have enabled the Q&amp;A plugin, users will be asked one of the questions specified here. To use this plugin at least one question must be set in the default language. These questions should be easy for your target audience to answer but beyond the ability of a bot capable of running a Google™ search. Using a large and regularly changed set of questions will yield the best results. Enable the strict setting if your question relies on mixed case, punctuation or whitespace.',
-	'QUESTION_DELETED'			=> 'Question deleted',
-	'QUESTION_LANG'				=> 'Language',
-	'QUESTION_LANG_EXPLAIN'		=> 'The language this question and its answers are written in.',
-	'QUESTION_STRICT'			=> 'Strict check',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
+	'ANSWER'					=> 'Vastus',
+	'EDIT_QUESTION'				=> 'Muuda küsimust',
+	'QUESTIONS'					=> 'Küsimused',
+	'QUESTIONS_EXPLAIN'			=> 'Registreerimise ajal küsitakse kasutajalt ühte neist küsimustest. Et kasutada seda lisa, pead sisestama vähemalt ühe küsimuse vaikimisi keeles. Need küsimused peaksid olema lihtsad inimestele vastamiseks, kuid võimatud robotidel neile veebiotsingute teel vastata. Parima tulemuse toob paljude ja regulaarselt muudetevate küsimuste kasutamine. Luba range seade, kui õige vastus sõltub tõusutundlikkusest ja kirjavahemärkidest.',
+	'QUESTION_DELETED'			=> 'Küsimus kustutatud',
+	'QUESTION_LANG'				=> 'Keel',
+	'QUESTION_LANG_EXPLAIN'		=> 'Keel, milles see küsimused ja tema vastused on kirjutatud.',
+	'QUESTION_STRICT'			=> 'Range kontroll',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Kui lubatud, eristatakse suurtähti ja tühikuid.',
 
-	'QUESTION_TEXT'				=> 'Question',
-	'QUESTION_TEXT_EXPLAIN'		=> 'The question presented to the user.',
+	'QUESTION_TEXT'				=> 'Küsimus',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Küsimus, mis esitatakse registreerumisel.',
 
-	'QA_ERROR_MSG'				=> 'Please fill in all fields and enter at least one answer.',
-	'QA_LAST_QUESTION'			=> 'You cannot delete all questions while the plugin is active.',
+	'QA_ERROR_MSG'				=> 'Palun täida kõik väljad ja sisesta vähemalt üks vastus.',
+	'QA_LAST_QUESTION'			=> 'Sa ei saa kustutada kõiki küsimusi, kuni moodul on aktiivne.'
 ));
