@@ -553,13 +553,13 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> 'Online friends',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> 'In total there is <strong>%1$d</strong> user online :: %2$s and %3$s',
-		2	=> 'In total there are <strong>%1$d</strong> users online :: %2$s and %3$s',
+		1	=> 'Hetkel on <strong>%1$d</strong> kasutaja sees :: %2$s ja %3$s',
+		2	=> 'Hetkel on <strong>%1$d</strong> kasutajat sees :: %2$s ja %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> 'In total there is <strong>%1$d</strong> user online :: %2$s, %3$s and %4$s',
-		2	=> 'In total there are <strong>%1$d</strong> users online :: %2$s, %3$s and %4$s',
+		1	=> 'Hetkel on <strong>%1$d</strong> kasutaja sees :: %2$s, %3$s ja %4$s',
+		2	=> 'Hetkel on <strong>%1$d</strong> kasutajat sees :: %2$s, %3$s ja %4$s',
 	),
 	'OPTIONS'					=> 'Options',
 
