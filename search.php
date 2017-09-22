@@ -1,13 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -37,88 +44,88 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'All available',
-	'ALL_RESULTS'			=> 'All results',
+	'ALL_AVAILABLE'			=> 'Kõik võimalikud',
+	'ALL_RESULTS'			=> 'Kõik tulemused',
 
-	'DISPLAY_RESULTS'		=> 'Display results as',
+	'DISPLAY_RESULTS'		=> 'Näita tulemusi',
 
 	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found %d match',
-		2	=> 'Search found %d matches',
+		1	=> 'Otsing leidis %d vaste',
+		2	=> 'Otsing leidis %d vastet',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found more than %d match',
-		2	=> 'Search found more than %d matches',
+		1	=> 'Otsing leidis rohkem kui %d vaste',
+		2	=> 'Otsing leidis rohkem kui %d vastet',
 	),
 
-	'GLOBAL'				=> 'Global announcement',
+	'GLOBAL'				=> 'Üldteadaanne',
 
-	'IGNORED_TERMS'			=> 'ignored',
-	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored because they are too common words: <strong>%s</strong>.',
+	'IGNORED_TERMS'			=> 'ignoreeritud',
+	'IGNORED_TERMS_EXPLAIN'	=> 'Järgnevaid sõnu sinu otsingus ignoreeriti, sest nad on liiga tavalised: <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> 'Jump to post',
+	'JUMP_TO_POST'			=> 'Hüppa postitusse',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'The board requires you to be registered and logged in to view your own posts.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'The board requires you to be registered and logged in to view your unread posts.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'The board requires you to be registered and logged in to view new posts since your last visit.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Sa pead olema registreeritud ja sisse logitud, et oma postitusi vaadata.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Foorum nõuab, et oleksid sisse logitud, et vaadata oma postitusi.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Foorum nõuab, et oleksid sisse logitud, et vaadata uusi postitusi oma viimasest külastusest saadik.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
-		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+		1	=> 'Sa sisestasid liiga palju otsisõnu. Palun ära sisesta üle %1$d sõna.',
+		2	=> 'Sa sisestasid liiga palju otsisõnu. Palun ära sisesta üle %1$d sõna.',
 	),
 
-	'NO_KEYWORDS'			=> 'You must specify at least one word to search for. Each word must consist of at least %s and must not contain more than %s excluding wildcards.',
-	'NO_RECENT_SEARCHES'	=> 'No searches have been carried out recently.',
-	'NO_SEARCH'				=> 'Sorry but you are not permitted to use the search system.',
-	'NO_SEARCH_RESULTS'		=> 'No suitable matches were found.',
-	'NO_SEARCH_LOAD'		=> 'Sorry but you cannot use search at this time. The server has high load. Please try again later.',
+	'NO_KEYWORDS'			=> 'Sa pead sisestama vähemalt ühe otsingusõna. Iga sõna peab koosnema vähemalt %s sümbolist ja ei tohi sisaldada rohkem kui %s sümbolit, välja arvatud wildcard\'id.',
+	'NO_RECENT_SEARCHES'	=> 'Viimasel ajal pole otsinguid sooritatud.',
+	'NO_SEARCH'				=> 'Vabandame, kuid sul pole õigusi otsida foorumitest.',
+	'NO_SEARCH_RESULTS'		=> 'Sobivaid vasteid ei leitud.',
+	'NO_SEARCH_LOAD'		=> 'Vabandame, kuid hetkel sa ei saa kasutada otsingut, kuna serveril on suur koormus. Palun proovi mõne aja pärast uuesti.',
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'Sorry but you cannot use search at this time. Please try again in %d second.',
-		2	=> 'Sorry but you cannot use search at this time. Please try again in %d seconds.',
+		1	=> 'Vabandame, otsing pole hetkel kasutatav. Palun proovi uuesti %d sekundi pärast.',
+		2	=> 'Vabandame, otsing pole hetkel kasutatav. Palun proovi uuesti %d sekundi pärast.',
 	),
-	'NO_SEARCH_UNREADS'		=> 'Sorry but searching for unread posts has been disabled on this board.',
-	'WORD_IN_NO_POST'		=> 'No posts were found because the word <strong>%s</strong> is not contained in any post.',
-	'WORDS_IN_NO_POST'		=> 'No posts were found because the words <strong>%s</strong> are not contained in any post.',
+	'NO_SEARCH_UNREADS'		=> 'Vabandame, kuid lugemata postituste otsing on siin foorumis keelatud.',
+	'WORD_IN_NO_POST'		=> 'Postitusi ei leitud, sest sõna <strong>%s</strong> ei sisaldu üheski postituses.',
+	'WORDS_IN_NO_POST'		=> 'Postitusi ei leitud, sest sõnad <strong>%s</strong> ei sisaldu üheski postituses.',
 
-	'POST_CHARACTERS'		=> 'characters of posts',
-	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',
+	'POST_CHARACTERS'		=> 'postituse sümbolit',
+	'PHRASE_SEARCH_DISABLED'	=> 'Täpse fraasi otsimine ei ole toeatud siin foorumil.',
 
-	'RECENT_SEARCHES'		=> 'Recent searches',
-	'RESULT_DAYS'			=> 'Limit results to previous',
-	'RESULT_SORT'			=> 'Sort results by',
-	'RETURN_FIRST'			=> 'Return first',
-	'GO_TO_SEARCH_ADV'	=> 'Go to advanced search',
+	'RECENT_SEARCHES'		=> 'Eelmised otsingud',
+	'RESULT_DAYS'			=> 'Limiteeri vastuseid eelmise',
+	'RESULT_SORT'			=> 'Sorteeri vastused',
+	'RETURN_FIRST'			=> 'Tagasi esimese juurde',
+	'GO_TO_SEARCH_ADV'	=> 'Mine täiendatud otsinguisse',
 
-	'SEARCHED_FOR'				=> 'Search term used',
-	'SEARCHED_TOPIC'			=> 'Searched topic',
-	'SEARCHED_QUERY'			=> 'Searched query',
-	'SEARCH_ALL_TERMS'			=> 'Search for all terms or use query as entered',
-	'SEARCH_ANY_TERMS'			=> 'Search for any terms',
-	'SEARCH_AUTHOR'				=> 'Search for author',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * as a wildcard for partial matches.',
-	'SEARCH_FIRST_POST'			=> 'First post of topics only',
-	'SEARCH_FORUMS'				=> 'Search in forums',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Select the forum or forums you wish to search in. Subforums are searched automatically if you do not disable “search subforums“ below.',
-	'SEARCH_IN_RESULTS'			=> 'Search these results',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches.',
-	'SEARCH_MSG_ONLY'			=> 'Message text only',
-	'SEARCH_OPTIONS'			=> 'Search options',
-	'SEARCH_QUERY'				=> 'Search query',
-	'SEARCH_SUBFORUMS'			=> 'Search subforums',
-	'SEARCH_TITLE_MSG'			=> 'Post subjects and message text',
-	'SEARCH_TITLE_ONLY'			=> 'Topic titles only',
-	'SEARCH_WITHIN'				=> 'Search within',
-	'SORT_ASCENDING'			=> 'Ascending',
-	'SORT_AUTHOR'				=> 'Author',
-	'SORT_DESCENDING'			=> 'Descending',
-	'SORT_FORUM'				=> 'Forum',
-	'SORT_POST_SUBJECT'			=> 'Post subject',
-	'SORT_TIME'					=> 'Post time',
-	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.',
+	'SEARCHED_FOR'				=> 'Kasutatud otsingusõna',
+	'SEARCHED_TOPIC'			=> 'Otsitud teema',
+	'SEARCHED_QUERY'			=> 'Otsingu päring',
+	'SEARCH_ALL_TERMS'			=> 'Otsi kõiki termineid või kasuta sõnu selles samas järjestuses',
+	'SEARCH_ANY_TERMS'			=> 'Otsi kõiki termineid',
+	'SEARCH_AUTHOR'				=> 'Otsi autori järgi',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Kasuta * wildcardina osalistes vastetes.',
+	'SEARCH_FIRST_POST'			=> 'Teemade esimesed postitused ainult',
+	'SEARCH_FORUMS'				=> 'Otsi foorumitest',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Vali foorumi(id), millest soovid otsida. Alafoorumitest otsitakse automaatselt, kui sa seda valikut siin all ei keela.',
+	'SEARCH_IN_RESULTS'			=> 'Otsi nendest vastetest',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Pane <strong>+</strong> sõna ette, mille peab otsingusse kaasama ja <strong>-</strong> sõna ette, mida ei tohi otsingusse kaasata. Eralda sõnade nimekiri <strong>|</strong> märgiga ja pane need sulgudesse, kui  soovid, et ainult ühe sõnaga otsitaks. Kasuta * wildcardina osalistes vastetes.',
+	'SEARCH_MSG_ONLY'			=> 'Ainult postitustest',
+	'SEARCH_OPTIONS'			=> 'Otsingu valikud',
+	'SEARCH_QUERY'				=> 'Otsingu järjestus',
+	'SEARCH_SUBFORUMS'			=> 'Otsi alamfoorumitest',
+	'SEARCH_TITLE_MSG'			=> 'Pealkirjadest ja postitustest',
+	'SEARCH_TITLE_ONLY'			=> 'Teema pealkirjadest ainult',
+	'SEARCH_WITHIN'				=> 'Otsi',
+	'SORT_ASCENDING'			=> 'Kasvav',
+	'SORT_AUTHOR'				=> 'Autor',
+	'SORT_DESCENDING'			=> 'Kahanev',
+	'SORT_FORUM'				=> 'Foorum',
+	'SORT_POST_SUBJECT'			=> 'Postituse teema',
+	'SORT_TIME'					=> 'Postituse aeg',
+	'SPHINX_SEARCH_FAILED'		=> 'Ebaõnnestunud otsing: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Vabandame, kuid otsingu päringut ei saa täita. Rohkemat informatsiooni antud veateate kohta saad veateadete logist.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
-		1	=> 'You must specify at least %d character of the authors name.',
-		2	=> 'You must specify at least %d characters of the authors name.',
+		1	=> 'Sa pead täpsustama vähemalt %d sümboli autori nimest.',
+		2	=> 'Sa pead täpsustama vähemalt %d sümbolit autori nimest.',
 	),
 ));

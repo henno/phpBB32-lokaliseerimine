@@ -1,13 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -35,38 +42,38 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CLI_CONFIG_CANNOT_CACHED'			=> 'Set this option if the configuration option changes too frequently to be efficiently cached.',
-	'CLI_CONFIG_CURRENT'				=> 'Current configuration value, use 0 and 1 to specify boolean values',
-	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Successfully deleted config %s.',
-	'CLI_CONFIG_NEW'					=> 'New configuration value, use 0 and 1 to specify boolean values',
-	'CLI_CONFIG_NOT_EXISTS'				=> 'Config %s does not exist',
-	'CLI_CONFIG_OPTION_NAME'			=> 'The configuration option’s name',
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Set this option if the value should be printed without a new line at the end.',
-	'CLI_CONFIG_INCREMENT_BY'			=> 'Amount to increment by',
-	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Successfully incremented config %s',
-	'CLI_CONFIG_SET_FAILURE'			=> 'Could not set config %s',
-	'CLI_CONFIG_SET_SUCCESS'			=> 'Successfully set config %s',
+	'CLI_CONFIG_CANNOT_CACHED'			=> 'Seadista antud valik, kui konfiguratsiooni valikud liiga tihedasti muutuvad, et tõhusamalt puhverdada.',
+	'CLI_CONFIG_CURRENT'				=> 'Kasutatavad konfiguratsiooni väärtused, kasuta 0 ja 1, et täpsustada booleani väärtused',
+	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Konfiguratsioon %s on edukalt kustutatud.',
+	'CLI_CONFIG_NEW'					=> 'Uus konfiguratsiooni väärtus, kasuta 0 ja 1, et täpsustada booleani väärtused',
+	'CLI_CONFIG_NOT_EXISTS'				=> 'Konfiguratsioon %s ei eksisteeri',
+	'CLI_CONFIG_OPTION_NAME'			=> 'Konfiguratsiooni valiku nimi',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Seadista see valik, kui väärtust tuleb printed ilma uue reata lõppu.',
+	'CLI_CONFIG_INCREMENT_BY'			=> 'Juurdekasvu kogus',
+	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Edukalt kasvatatud konfiguratsioon %s',
+	'CLI_CONFIG_SET_FAILURE'			=> 'Ei õnnestunud seadistada konfiguratsiooni %s',
+	'CLI_CONFIG_SET_SUCCESS'			=> 'Edukalt seadistatud konfiguratsioon %s',
 
-	'CLI_DESCRIPTION_CRON_LIST'					=> 'Prints a list of ready and unready cron jobs.',
-	'CLI_DESCRIPTION_CRON_RUN'					=> 'Runs all ready cron tasks.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Name of the task to be run',
+	'CLI_DESCRIPTION_CRON_LIST'					=> 'Nimekiri juba valmis, ning mitte valmis olevatest cron töödest.',
+	'CLI_DESCRIPTION_CRON_RUN'					=> 'Käivitab kõik valmis olevad cron ülesanded.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Ülesande nimi, mida tuleb käivitada',
 	'CLI_DESCRIPTION_DB_LIST'					=> 'List all installed and available migrations.',
-	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Updates the database by applying migrations.',
+	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Uuendan andmebaasi kohaldades migratsiooni.',
 	'CLI_DESCRIPTION_DB_REVERT'					=> 'Revert a migration.',
-	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Deletes a configuration option',
-	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Disables the specified extension.',
-	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Enables the specified extension.',
-	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Finds migrations that are not depended upon.',
+	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Kustutab konfiguratsiooni valikud',
+	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Keelab määratud laienduse.',
+	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Lubab määratud laienduse.',
+	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Leiab migratsiooni, mis ei ole sõltuv.',
 	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Repairs the tree structure of the forums and modules.',
-	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Gets a configuration option’s value',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Increments a configuration option’s integer value',
-	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lists all extensions in the database and on the filesystem.',
+	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Saab konfiguratsiooni valiku väärtuse',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Kasvatab konfiguratsiooni valiku väärtust täisarvuni',
+	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Nimekiri kõikidest laiendustest andmebaasis ja failisüsteemis.',
 
 	'CLI_DESCRIPTION_OPTION_ENV'				=> 'The Environment name.',
-	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Run in Safe Mode (without extensions).',
-	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Launch the shell.',
+	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Käivita turvalises režiimis ehk Safe Mode (ilma laiendusdeta).',
+	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Käivita shell\'is.',
 
-	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Purges the specified extension.',
+	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Puhastab määratletud laienduse.',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Lists the types of text that can be reparsed.',
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Available reparsers:',
@@ -78,10 +85,10 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Approximate number of records to process at a time',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start reparsing where the last execution stopped',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Recalculates the user_email_hash column of the users table.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Arvutab ümber user_email_hash kolumni andmebaasi tabelis users.',
 
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Sets a configuration option’s value only if the old matches the current value',
-	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Sets a configuration option’s value',
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Seadistab konfiguratsiooni väärtused ainult siis, kui vanad kattuvad hetke väärtustega',
+	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Seadistab konfiguratsiooni valiku väärtused',
 
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Delete all existing thumbnails.',
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Generate all missing thumbnails.',
@@ -111,24 +118,27 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Delete all posts by the user. Without this option, the user’s posts will be retained.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-clean usernames.',
 
-	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Could not disable extension %s',
-	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Successfully disabled extension %s',
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" needs to be set to "stable" or "unstable".',
+	
+	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Ei õnnestunud keelata laiendust %s',
+	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Laiendus %s on edukalt keelatud',
 	'CLI_EXTENSION_DISABLED'			=> 'Extension %s is not enabled',
-	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Could not enable extension %s',
-	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Successfully enabled extension %s',
+	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Laiendust %s ei olnud võimalik lubada',
+	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Laiendus %s edukalt lubatud',
 	'CLI_EXTENSION_ENABLED'				=> 'Extension %s is already enabled',
-	'CLI_EXTENSION_NAME'				=> 'Name of the extension',
-	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Could not purge extension %s',
-	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Successfully purged extension %s',
+	'CLI_EXTENSION_NAME'				=> 'Laienduse nimi',
+	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Ei õnnestunud puhastada laiendust %s',
+	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Laiendus %s on edukalt puhastatud',
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Could not update extension %s',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Successfully updated extension %s',
-	'CLI_EXTENSION_NOT_FOUND'			=> 'No extensions were found.',
-	'CLI_EXTENSIONS_AVAILABLE'			=> 'Available',
-	'CLI_EXTENSIONS_DISABLED'			=> 'Disabled',
-	'CLI_EXTENSIONS_ENABLED'			=> 'Enabled',
+	'CLI_EXTENSION_NOT_FOUND'			=> 'Ühtegi laiendust ei leitud.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'Extension %s is not enableable.',
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Saadaval',
+	'CLI_EXTENSIONS_DISABLED'			=> 'Keelatud',
+	'CLI_EXTENSIONS_ENABLED'			=> 'Lubatud',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Successfully repaired the tree structure of the forums and modules.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Successfully recalculated all email hashes.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Kõik e-posti räsid on edukalt ümber arvutatud.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Successfully updated outdated password hashes to bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migration name, including the namespace (use forward slashes instead of backslashes to avoid problems).',
@@ -141,8 +151,6 @@ $lang = array_merge($lang, array(
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reparsing %s...',
 	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Reparsing ended with success',
 
-	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
-	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
 	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) deleted.',
 	'CLI_THUMBNAIL_DELETING'	=> 'Deleting thumbnails',
 	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) skipped.',
@@ -162,11 +170,23 @@ $lang = array_merge($lang, array(
 		1	=> 'Re-cleaning complete. %d username was cleaned.',
 		2	=> 'Re-cleaning complete. %d usernames were cleaned.',
 	],
+
+	'CLI_DESCRIPTION_EXTENSION_MANAGE'					=> 'Manages an extension',
+	'CLI_DESCRIPTION_EXTENSION_MANAGE_ARGUMENT'			=> 'Extension to manage',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL'					=> 'Install the specified extension(s).',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_OPTION_ENABLE'	=> 'Enable extension(s) after installation',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_ARGUMENT'		=> 'Extension(s) to install, e.g.: vendor/package',
+	'CLI_DESCRIPTION_EXTENSION_LIST_AVAILABLE'			=> 'List extensions available for installation.',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE'					=> 'Remove the specified extension(s).',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_OPTION_PURGE'		=> 'Purge extension(s) when removing them',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_ARGUMENT'			=> 'Extension(s) to remove, e.g.: vendor/package',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE'					=> 'Update the specified extension(s).',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE_ARGUMENT'			=> 'Extension(s) to update, e.g.: vendor/package',
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Optionally you can specify a cron task name to run only the specified cron task.',
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . 'Valikulisena Sa saad määratleda cron ülesande nime, et käivitada ainult spetsiifiline cron ülesanne.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Activate a user account, or deactivate an account using the <info>--deactivate</info> option.
 To optionally send an activation email to the user, use the <info>--send-email</info> option.',
 	'CLI_HELP_USER_ADD'			=> 'The <info>%command.name%</info> command adds a new user:

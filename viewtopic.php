@@ -1,13 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -37,90 +44,90 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'Approve',
-	'ATTACHMENT'						=> 'Attachment',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'The attachments feature has been disabled.',
+	'APPROVE'								=> 'Kiida heaks',
+	'ATTACHMENT'						=> 'Manus',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Manuste lisamine on keelatud.',
 
-	'BOOKMARK_ADDED'		=> 'Bookmarked topic successfully.',
-	'BOOKMARK_ERR'			=> 'Bookmarking the topic failed. Please try again.',
-	'BOOKMARK_REMOVED'		=> 'Removed bookmarked topic successfully.',
-	'BOOKMARK_TOPIC'		=> 'Bookmark topic',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'Remove from bookmarks',
-	'BUMPED_BY'				=> 'Last bumped by %1$s on %2$s.',
-	'BUMP_TOPIC'			=> 'Bump topic',
+	'BOOKMARK_ADDED'		=> 'Teemale järjehoidja lisatud.',
+	'BOOKMARK_ERR'			=> 'Teemale järjehoidja lisamine ebaõnnestus. Palun proovi uuesti.',
+	'BOOKMARK_REMOVED'		=> 'Teemalt järjehoidja eemaldatud.',
+	'BOOKMARK_TOPIC'		=> 'Pane teemale järjehoidja',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Eemalda järjehoidja',
+	'BUMPED_BY'				=> 'Viimati tõstatas %1$s, %2$s.',
+	'BUMP_TOPIC'			=> 'Tõsta teemat',
 
-	'CODE'					=> 'Code',
+	'CODE'					=> 'Kood',
 
-	'DELETE_TOPIC'			=> 'Delete topic',
-	'DELETED_INFORMATION'	=> 'Deleted by %1$s on %2$s',
-	'DISAPPROVE'					=> 'Disapprove',
-	'DOWNLOAD_NOTICE'		=> 'You do not have the required permissions to view the files attached to this post.',
+	'DELETE_TOPIC'			=> 'Kustuta teema',
+	'DELETED_INFORMATION'	=> 'Kustutas %1$s - %2$s',
+	'DISAPPROVE'					=> 'Lükka tagasi',
+	'DOWNLOAD_NOTICE'		=> 'Sul pole õigusi, et siin postituses manuseid näha.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Last edited by %2$s on %3$s, edited %1$d time in total.',
-		2	=> 'Last edited by %2$s on %3$s, edited %1$d times in total.',
+		1	=> 'Viimati muutis %2$s, %3$s, muudetud %1$d kord kokku.',
+		2	=> 'Viimati muutis %2$s, %3$s, muudetud %1$d korda kokku.',
 	),
-	'EMAIL_TOPIC'			=> 'Email topic',
-	'ERROR_NO_ATTACHMENT'	=> 'The selected attachment does not exist anymore.',
+	'EMAIL_TOPIC'			=> 'Saada sõbrale e-kiri',
+	'ERROR_NO_ATTACHMENT'	=> 'Valitud manust ei ole enam.',
 
-	'FILE_NOT_FOUND_404'	=> 'The file <strong>%s</strong> does not exist.',
-	'FORK_TOPIC'			=> 'Copy topic',
-	'FULL_EDITOR'			=> 'Full Editor &amp; Preview',
+	'FILE_NOT_FOUND_404'	=> 'Faili <strong>%s</strong> ei eksisteeri.',
+	'FORK_TOPIC'			=> 'Kopeeri teema',
+	'FULL_EDITOR'			=> 'Täiendatud redigeerija',
 
-	'LINKAGE_FORBIDDEN'		=> 'You are not authorised to view, download or link from/to this site.',
-	'LOGIN_NOTIFY_TOPIC'	=> 'You have been notified about this topic, please login to view it.',
-	'LOGIN_VIEWTOPIC'		=> 'The board requires you to be registered and logged in to view this topic.',
+	'LINKAGE_FORBIDDEN'		=> 'Sul ei ole õigusi vaadata, alla laadida ega linkida siit lehelt või siia lehele.',
+	'LOGIN_NOTIFY_TOPIC'	=> 'Sind on teatatud sellest teemast, logi sisse, et seda vaadata.',
+	'LOGIN_VIEWTOPIC'		=> 'Sa pead olema registreeritud ja sisse logitud, et seda teemat vaadata.',
 
-	'MAKE_ANNOUNCE'				=> 'Change to “Announcement”',
-	'MAKE_GLOBAL'				=> 'Change to “Global”',
-	'MAKE_NORMAL'				=> 'Change to “Standard Topic”',
-	'MAKE_STICKY'				=> 'Change to “Sticky”',
+	'MAKE_ANNOUNCE'				=> 'Muuda “teadaandeks”',
+	'MAKE_GLOBAL'				=> 'Muuda “üldteadaandeks”',
+	'MAKE_NORMAL'				=> 'Muuda “tavaliseks teemaks”',
+	'MAKE_STICKY'				=> 'Muuda “kleebiseks”',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'You may select <strong>%d</strong> option',
-		2	=> 'You may select up to <strong>%d</strong> options',
+		1	=> 'Sa võid valida kuni <strong>%d</strong> valiku',
+		2	=> 'Sa võid valida kuni <strong>%d</strong> valikut',
 	),
-	'MISSING_INLINE_ATTACHMENT'	=> 'The attachment <strong>%s</strong> is no longer available',
-	'MOVE_TOPIC'				=> 'Move topic',
+	'MISSING_INLINE_ATTACHMENT'	=> 'Manus <strong>%s</strong> pole enam saadaval',
+	'MOVE_TOPIC'				=> 'Liiguta teema',
 
-	'NO_ATTACHMENT_SELECTED'=> 'You haven’t selected an attachment to download or view.',
-	'NO_NEWER_TOPICS'		=> 'There are no newer topics in this forum.',
-	'NO_OLDER_TOPICS'		=> 'There are no older topics in this forum.',
-	'NO_UNREAD_POSTS'		=> 'There are no new unread posts for this topic.',
-	'NO_VOTE_OPTION'		=> 'You must specify an option when voting.',
-	'NO_VOTES'				=> 'No votes',
+	'NO_ATTACHMENT_SELECTED'=> 'Sa pole valinud manust, mida alla laadida või vaadata.',
+	'NO_NEWER_TOPICS'		=> 'Siin foorumis pole uuemaid teemasid.',
+	'NO_OLDER_TOPICS'		=> 'Siin foorumis pole vanemaid teemasid.',
+	'NO_UNREAD_POSTS'		=> 'Selles teemas pole uusi lugemata postitusi.',
+	'NO_VOTE_OPTION'		=> 'Sa pead valima valiku hääletamiseks.',
+	'NO_VOTES'				=> 'Pole hääli',
 
-	'POLL_ENDED_AT'			=> 'Poll ended at %s',
-	'POLL_RUN_TILL'			=> 'Poll runs till %s',
-	'POLL_VOTED_OPTION'		=> 'You voted for this option',
-	'POST_DELETED_RESTORE'	=> 'This post has been deleted. It can be restored.',
-	'PRINT_TOPIC'			=> 'Print view',
+	'POLL_ENDED_AT'			=> 'Hääletus lõppes %s',
+	'POLL_RUN_TILL'			=> 'Hääletus kestab kuni %s',
+	'POLL_VOTED_OPTION'		=> 'Sa hääletasid selle valiku poolt',
+	'POST_DELETED_RESTORE'	=> 'See postitus on kustutatud, kuid seda on veel võimalik taastada.',
+	'PRINT_TOPIC'			=> 'Printerivaade',
 
-	'QUICK_MOD'				=> 'Quick-mod tools',
-	'QUICKREPLY'			=> 'Quick Reply',
-	'QUOTE'					=> 'Quote',
+	'QUICK_MOD'				=> 'Kiire modereerimine',
+	'QUICKREPLY'			=> 'Kiirvastamine',
+	'QUOTE'					=> 'Tsiteeri',
 
-	'REPLY_TO_TOPIC'		=> 'Reply to topic',
-	'RESTORE'				=> 'Restore',
-	'RESTORE_TOPIC'			=> 'Restore topic',
-	'RETURN_POST'			=> '%sReturn to the post%s',
+	'REPLY_TO_TOPIC'		=> 'Vasta teemale',
+	'RESTORE'				=> 'Taasta',
+	'RESTORE_TOPIC'			=> 'Taasta teema',
+	'RETURN_POST'			=> '%sTagasi postituse juurde%s',
 
-	'SUBMIT_VOTE'			=> 'Submit vote',
+	'SUBMIT_VOTE'			=> 'Anna hääl',
 
-	'TOPIC_TOOLS'			=> 'Topic tools',
-	'TOTAL_VOTES'			=> 'Total votes',
+	'TOPIC_TOOLS'			=> 'Teema seaded',
+	'TOTAL_VOTES'			=> 'Hääli kokku',
 
-	'UNLOCK_TOPIC'			=> 'Unlock topic',
+	'UNLOCK_TOPIC'			=> 'Ava teema',
 
-	'VIEW_INFO'				=> 'Post details',
-	'VIEW_NEXT_TOPIC'		=> 'Next topic',
-	'VIEW_PREVIOUS_TOPIC'	=> 'Previous topic',
-	'VIEW_RESULTS'			=> 'View results',
+	'VIEW_INFO'				=> 'Postituse andmed',
+	'VIEW_NEXT_TOPIC'		=> 'Järgmine teema',
+	'VIEW_PREVIOUS_TOPIC'	=> 'Eelmine teema',
+	'VIEW_RESULTS'			=> 'Vaata tulemusi',
 	'VIEW_TOPIC_POSTS'		=> array(
-		1	=> '%d post',
-		2	=> '%d posts',
+		1	=> '%d postitus',
+		2	=> '%d postitust',
 	),
-	'VIEW_UNREAD_POST'		=> 'First unread post',
-	'VOTE_SUBMITTED'		=> 'Your vote has been cast.',
-	'VOTE_CONVERTED'		=> 'Changing votes is not supported for converted polls.',
+	'VIEW_UNREAD_POST'		=> 'Esimene lugemata postitus',
+	'VOTE_SUBMITTED'		=> 'Sinu hääl on arvesse võetud.',
+	'VOTE_CONVERTED'		=> 'Häält ei saa muuta konverditud hääletuste puhul.',
 
 ));

@@ -12,7 +12,7 @@
 *
 *
 * @package      Estonian
-* @author       2017-07-23 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
 * @copyright    phpBBeesti
 * @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *

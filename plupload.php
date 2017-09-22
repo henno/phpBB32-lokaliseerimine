@@ -1,14 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) 2010-2013 Moxiecode Systems AB
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -38,42 +44,42 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'PLUPLOAD_ADD_FILES'		=> 'Add files',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Add files to the upload queue and click the start button.',
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s already present in the queue.',
-	'PLUPLOAD_CLOSE'			=> 'Close',
-	'PLUPLOAD_DRAG'				=> 'Drag files here.',
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Duplicate file error.',
-	'PLUPLOAD_DRAG_TEXTAREA'	=> 'You may also attach files by dragging and dropping them in the message box.',
-	'PLUPLOAD_ERR_INPUT'		=> 'Failed to open input stream.',
-	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Failed to move uploaded file.',
-	'PLUPLOAD_ERR_OUTPUT'		=> 'Failed to open output stream.',
-	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'File too large:',
-	'PLUPLOAD_ERR_FILE_COUNT'	=> 'File count error.',
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Invalid file extension:',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Runtime ran out of available memory.',
-	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Upload URL might be wrong or does not exist.',
-	'PLUPLOAD_EXTENSION_ERROR'	=> 'File extension error.',
-	'PLUPLOAD_FILE'				=> 'File: %s',
-	'PLUPLOAD_FILE_DETAILS'		=> 'File: %s, size: %d, max file size: %d',
-	'PLUPLOAD_FILENAME'			=> 'Filename',
-	'PLUPLOAD_FILES_QUEUED'		=> '%d files queued',
-	'PLUPLOAD_GENERIC_ERROR'	=> 'Generic error.',
-	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP error.',
-	'PLUPLOAD_IMAGE_FORMAT'		=> 'Image format either wrong or not supported.',
-	'PLUPLOAD_INIT_ERROR'		=> 'Init error.',
-	'PLUPLOAD_IO_ERROR'			=> 'IO error.',
-	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A',
-	'PLUPLOAD_SECURITY_ERROR'	=> 'Security error.',
-	'PLUPLOAD_SELECT_FILES'		=> 'Select files',
-	'PLUPLOAD_SIZE'				=> 'Size',
-	'PLUPLOAD_SIZE_ERROR'		=> 'File size error.',
-	'PLUPLOAD_STATUS'			=> 'Status',
-	'PLUPLOAD_START_UPLOAD'		=> 'Start upload',
-	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Start uploading queue',
-	'PLUPLOAD_STOP_UPLOAD'		=> 'Stop upload',
-	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Stop current upload',
+	'PLUPLOAD_ADD_FILES'		=> 'Lisa failid',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Lisa failid üleslaadimise järjekorda, ning vajuta alusta nuppu.',
+	'PLUPLOAD_ALREADY_QUEUED'	=> '%s on juba järjekorras.',
+	'PLUPLOAD_CLOSE'			=> 'Sulge',
+	'PLUPLOAD_DRAG'				=> 'Lohista failid siia.',
+	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Viga: Samasugune fail.',
+	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Sa võid samuti lisada faile lohistades need kasti.',
+	'PLUPLOAD_ERR_INPUT'		=> 'VIGA: Ei suutnud avada input stream.',
+	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Ei õnnestunud liigutada üleslaaditud faili.',
+	'PLUPLOAD_ERR_OUTPUT'		=> 'VIGA: Ei suutnud avada output stream.',
+	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Fail on liiga suur:',
+	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Faili loenduse viga.',
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Vigane faili laiend:',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Käitusfaasi ajal sai vaba mälu otsa.',
+	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Üleslaadimise URL on kas vale või ei eksisteeri.',
+	'PLUPLOAD_EXTENSION_ERROR'	=> 'Faili laiendi viga.',
+	'PLUPLOAD_FILE'				=> 'Fail: %s',
+	'PLUPLOAD_FILE_DETAILS'		=> 'Fail: %s, suurus: %d, maksimum faili suurus: %d',
+	'PLUPLOAD_FILENAME'			=> 'Failinimi',
+	'PLUPLOAD_FILES_QUEUED'		=> '%d faili järjekorras',
+	'PLUPLOAD_GENERIC_ERROR'	=> 'Üldviga.',
+	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP viga.',
+	'PLUPLOAD_IMAGE_FORMAT'		=> 'Pildiformaat on vale või pole toetatud.',
+	'PLUPLOAD_INIT_ERROR'		=> 'Init viga.',
+	'PLUPLOAD_IO_ERROR'			=> 'IO viga.',
+	'PLUPLOAD_NOT_APPLICABLE'	=> 'Mittekohaldatav',
+	'PLUPLOAD_SECURITY_ERROR'	=> 'Turbeviga.',
+	'PLUPLOAD_SELECT_FILES'		=> 'Vali failid',
+	'PLUPLOAD_SIZE'				=> 'Suurus',
+	'PLUPLOAD_SIZE_ERROR'		=> 'Faili suuruse viga.',
+	'PLUPLOAD_STATUS'			=> 'Staatus',
+	'PLUPLOAD_START_UPLOAD'		=> 'Alusta üleslaadimist',
+	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Alusta üleslaadimist järjekorras',
+	'PLUPLOAD_STOP_UPLOAD'		=> 'Peata üleslaadimine',
+	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Peate viimane üleslaadimine',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> 'Uploaded %d/%d files',
+	'PLUPLOAD_UPLOADED'			=> 'Üles laaditud %d/%d faili',
 ));

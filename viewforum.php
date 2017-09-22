@@ -1,13 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -37,36 +44,36 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
-	'ANNOUNCEMENTS'			=> 'Announcements',
+	'ACTIVE_TOPICS'			=> 'Aktiivsed teemad',
+	'ANNOUNCEMENTS'			=> 'Teadaanded',
 
-	'FORUM_PERMISSIONS'		=> 'Forum permissions',
+	'FORUM_PERMISSIONS'		=> 'Foorumi õigused',
 
-	'ICON_ANNOUNCEMENT'		=> 'Announcement',
-	'ICON_STICKY'			=> 'Sticky',
+	'ICON_ANNOUNCEMENT'		=> 'Teadaanne',
+	'ICON_STICKY'			=> 'Kleebis',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Sulle on teatatud sellest foorumist. Logi sisse, et seda vaadata.',
 
-	'MARK_TOPICS_READ'		=> 'Mark topics read',
+	'MARK_TOPICS_READ'		=> 'Märgi teemad loetuks',
 
-	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to read topics within this forum.',
-	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
+	'NEW_POSTS_HOT'			=> 'Uued postitused [ Populaarne ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'Uued postitused [ Suletud ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'Pole uusi postitusi [ Populaarne ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'Pole uusi postitusi [ Suletud ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> 'Sul pole õigusi teemade lugemiseks selles foorumis.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Pole lugemata postitusi [ Populaarne ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Pole lugemata postitusi [ Suletud ]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> 'Foorum on suletud',
 
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
+	'TOPICS_MARKED'			=> 'Teemad selles foorumis on nüüd märgitud loetuks.',
 
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
+	'UNREAD_POSTS_HOT'		=> 'Lugemata postitused [ Populaarne ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Lugemata postitused [ Suletud ]',
 
-	'VIEW_FORUM'			=> 'View forum',
+	'VIEW_FORUM'			=> 'Vaata foorumit',
 	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> '%d topic',
-		2	=> '%d topics',
+		1	=> '%d teema',
+		2	=> '%d teemat',
 	),
 ));

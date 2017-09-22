@@ -12,7 +12,7 @@
 *
 *
 * @package      Estonian
-* @author       2017-07-23 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
 * @copyright    phpBBeesti
 * @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -67,5 +67,6 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'Küsimus, mis esitatakse registreerumisel.',
 
 	'QA_ERROR_MSG'				=> 'Palun täida kõik väljad ja sisesta vähemalt üks vastus.',
-	'QA_LAST_QUESTION'			=> 'Sa ei saa kustutada kõiki küsimusi, kuni moodul on aktiivne.'
+	'QA_LAST_QUESTION'			=> 'Sa ei saa kustutada kõiki küsimus, kuni moodul on aktiivne.',
+
 ));

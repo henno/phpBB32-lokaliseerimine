@@ -1,18 +1,21 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-*/
-
-/**
-* DO NOT CHANGE
+*
+* @package      Estonian
+* @author       2016-10-02 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
 */
 if (!defined('IN_PHPBB'))
 {
@@ -37,59 +40,59 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'		=> 'The selected group is already your default group.',
-	'ALREADY_IN_GROUP'			=> 'You are already a member of the selected group.',
-	'ALREADY_IN_GROUP_PENDING'	=> 'You already requested joining the selected group.',
+	'ALREADY_DEFAULT_GROUP'		=> 'Valitud grupp on juba sinu vaikimisi grupp.',
+	'ALREADY_IN_GROUP'			=> 'Sa oled juba valitud grupi liige.',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Sa oled juba valitud grupiga liituda soovinud.',
 
-	'CANNOT_JOIN_GROUP'			=> 'You are not able to join this group. You are only able to join open and freely open groups.',
-	'CANNOT_RESIGN_GROUP'		=> 'You are not able to resign from this group. You are only able to resign from open and freely open groups.',
-	'CHANGED_DEFAULT_GROUP'		=> 'Successfully changed default group.',
+	'CANNOT_JOIN_GROUP'			=> 'Sa ei saa selle grupiga liituda. Saad liituda vaid avatud gruppidega.',
+	'CANNOT_RESIGN_GROUP'		=> 'Sa ei saa siit grupist lahkuda. Saad lahkuda vaid avatud gruppidest.',
+	'CHANGED_DEFAULT_GROUP'		=> 'Vaikimis grupi vahetamine õnnestus.',
 
-	'GROUP_AVATAR'						=> 'Group avatar',
-	'GROUP_CHANGE_DEFAULT'				=> 'Are you sure you want to change your default membership to the group “%s”?',
-	'GROUP_CLOSED'						=> 'Closed',
-	'GROUP_DESC'						=> 'Group description',
-	'GROUP_HIDDEN'						=> 'Hidden',
-	'GROUP_INFORMATION'					=> 'Usergroup information',
-	'GROUP_IS_CLOSED'					=> 'This is a closed group, new members can only join upon invitation of a group leader.',
-	'GROUP_IS_FREE'						=> 'This is a freely open group, all new members are welcome.',
-	'GROUP_IS_HIDDEN'					=> 'This is a hidden group, only members of this group can view its membership.',
-	'GROUP_IS_OPEN'						=> 'This is an open group, members can apply to join.',
-	'GROUP_IS_SPECIAL'					=> 'This is a special group, special groups are managed by the board administrators.',
-	'GROUP_JOIN'						=> 'Join group',
-	'GROUP_JOIN_CONFIRM'				=> 'Are you sure you want to join the selected group?',
-	'GROUP_JOIN_PENDING'				=> 'Request to join group',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Are you sure you want to request joining the selected group?',
-	'GROUP_JOINED'						=> 'Successfully joined selected group.',
-	'GROUP_JOINED_PENDING'				=> 'Successfully requested group membership. Please wait for a group leader to approve your membership.',
-	'GROUP_LIST'						=> 'Manage users',
-	'GROUP_MEMBERS'						=> 'Group members',
-	'GROUP_NAME'						=> 'Group name',
-	'GROUP_OPEN'						=> 'Open',
-	'GROUP_RANK'						=> 'Group rank',
-	'GROUP_RESIGN_MEMBERSHIP'			=> 'Resign group membership',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Are you sure you want to resign your membership from the selected group?',
-	'GROUP_RESIGN_PENDING'				=> 'Resign a pending group membership',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Are you sure you want to resign your pending membership from the selected group?',
-	'GROUP_RESIGNED_MEMBERSHIP'			=> 'You were successfully removed from the selected group.',
-	'GROUP_RESIGNED_PENDING'			=> 'Your pending membership was successfully removed from the selected group.',
-	'GROUP_TYPE'						=> 'Group type',
-	'GROUP_UNDISCLOSED'					=> 'Hidden group',
-	'FORUM_UNDISCLOSED'					=> 'Moderating hidden forum(s)',
+	'GROUP_AVATAR'						=> 'Grupi avatar',
+	'GROUP_CHANGE_DEFAULT'				=> 'Kas oled kindel, et soovid vahetada vaikimisi grupiks grupi “%s”?',
+	'GROUP_CLOSED'						=> 'Suletud',
+	'GROUP_DESC'						=> 'Grupi kirjeldus',
+	'GROUP_HIDDEN'						=> 'Varjatud',
+	'GROUP_INFORMATION'					=> 'Kasutajagrupi informatsioon',
+	'GROUP_IS_CLOSED'					=> 'See on suletud grupp, uued liikmed saavad liituda vaid grupi liidri kutsel.',
+	'GROUP_IS_FREE'						=> 'See on kõigile avatud grupp, uued liikmed saavad liituda.',
+	'GROUP_IS_HIDDEN'					=> 'See on varjatud grupp, ainult selle grupi liikmed saavad vaadata oma liikmestaatust.',
+	'GROUP_IS_OPEN'						=> 'See on avatud grupp, kasutajad võivad esitada liitumissoovi.',
+	'GROUP_IS_SPECIAL'					=> 'See on erigrupp, erigruppe haldab foorumi administraator.',
+	'GROUP_JOIN'						=> 'Liitu grupiga',
+	'GROUP_JOIN_CONFIRM'				=> 'Oled kindel, et soovid ühineda valitud grupiga?',
+	'GROUP_JOIN_PENDING'				=> 'Esita grupiga liitumissoov',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Oled kindel, et soovid esitada liitumissoovi sellele grupile?',
+	'GROUP_JOINED'						=> 'Liitusid grupiga edukalt',
+	'GROUP_JOINED_PENDING'				=> 'Esitasid liitumissoovi. Oota grupi liidri vastust.',
+	'GROUP_LIST'						=> 'Halda kasutajaid',
+	'GROUP_MEMBERS'						=> 'Grupi liikmed',
+	'GROUP_NAME'						=> 'Grupi nimi',
+	'GROUP_OPEN'						=> 'Avatud',
+	'GROUP_RANK'						=> 'Grupi tase',
+	'GROUP_RESIGN_MEMBERSHIP'			=> 'Loobu grupi liikmestaatusest.',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Oled sa kindel, et soovid loobuda grupi liikmestaatusest?',
+	'GROUP_RESIGN_PENDING'				=> 'Loobu otsustamata grupi liikmestaatusest',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Oled kindel, et soovid loobuda otsustamata grupi liikmestaatusest?',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Sind eemaldati edukalt valitud grupist.',
+	'GROUP_RESIGNED_PENDING'			=> 'Sinu otsustamata liikmestaatus on edukalt eemaldatud.',
+	'GROUP_TYPE'						=> 'Grupi tüüp',
+	'GROUP_UNDISCLOSED'					=> 'Varjatud grupp',
+	'FORUM_UNDISCLOSED'					=> 'Modereerib varjatud foorumit/foorumeid.',
 
-	'LOGIN_EXPLAIN_GROUP'	=> 'You need to login to view group details.',
+	'LOGIN_EXPLAIN_GROUP'	=> 'Sa pead sisse logima, et vaadata grupi andmeid.',
 
-	'NO_LEADERS'					=> 'You are not a leader of any group.',
-	'NOT_LEADER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a leader of the selected group.',
-	'NOT_MEMBER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a member of the selected group or your membership has not been approved yet.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'You are not allowed to resign from your default group.',
+	'NO_LEADERS'					=> 'Sa ei ole ühegi grupi liider.',
+	'NOT_LEADER_OF_GROUP'			=> 'Valitud toimingut ei saa sooritada, sest sa ei ole valitud grupi liider',
+	'NOT_MEMBER_OF_GROUP'			=> 'Valitud toimingut ei saa sooritada, sest sa ei ole valitud grupi liige.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Sul ei ole lubatud loobuda oma vaikimisi grupist.',
 
-	'PRIMARY_GROUP'		=> 'Primary group',
+	'PRIMARY_GROUP'		=> 'Peagrupp',
 
-	'REMOVE_SELECTED'		=> 'Remove selected',
+	'REMOVE_SELECTED'		=> 'Eemalda valitud',
 
-	'USER_GROUP_CHANGE'			=> 'From “%1$s” group to “%2$s”',
-	'USER_GROUP_DEMOTE'			=> 'Demote leadership',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?',
-	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.',
+	'USER_GROUP_CHANGE'			=> '“%1$s” grupist “%2$s” gruppi.',
+	'USER_GROUP_DEMOTE'			=> 'Loobu liidristaatusest',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Oled sa kindel, et soovid loobuda valitud grupi liidristaatusest?',
+	'USER_GROUP_DEMOTED'		=> 'Oled grupi liidristaatusest edukalt loobunud.',
 ));

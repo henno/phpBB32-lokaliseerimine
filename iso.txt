@@ -1,3 +1,2 @@
 Estonian
 eesti keel
-phpBBeesti, 2017

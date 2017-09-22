@@ -1,13 +1,20 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* This file is part of Estonian phpBB translation.
+* Copyright (c) 2008 - 2017 Estonian translation group.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+*
+* @package      Estonian
+* @author       2016-10-14 phpBBeesti.net <et.translations@phpbbeesti.net>
+* @copyright    phpBBeesti
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -37,22 +44,22 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'The config setting "%s" unexpectedly does not exist.',
+	'CONFIG_NOT_EXIST'					=> 'Konfiguratsiooni seadet "%s" ei eksisteeri ootamatult enam.',
 
-	'GROUP_NOT_EXIST'					=> 'The group "%s" unexpectedly does not exist.',
+	'GROUP_NOT_EXIST'					=> 'Grupi "%s" ootamatult ei eksisteeri enam.',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Apply dependencies of %s.',
-	'MIGRATION_DATA_DONE'				=> 'Installed Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installing Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_RUNNING'			=> 'Installing Data: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration already effectively installed (skipped): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Something went wrong during the request and an exception was thrown. The changes made before the error occurred were reversed to the best of our abilities, but you should check the board for errors.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'The migration "%1$s" is not fulfillable, missing migration "%2$s".',
+	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Kohaldatakse sõltuvalt %s.',
+	'MIGRATION_DATA_DONE'				=> 'Installeeritud andmed: %1$s; Aeg: %2$.2f sekundit',
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installeerin andmeid: %1$s; Aeg: %2$.2f sekundit',
+	'MIGRATION_DATA_RUNNING'			=> 'Installeerin andmeid: %s.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migratsioon on juba tõhusalt installeeritud (vahele jäetud): %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Midagi läks valesti päringu ajal. Muudatused on tühistatud, kuid sa peaks ilmtingimata vaatama oma foorumi üle.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'Migratsioon "%1$s" pole täidetud täielikult, puuduv migratsioon "%2$s".',
 	'MIGRATION_NOT_INSTALLED'			=> 'The migration "%s" is not installed.',
-	'MIGRATION_NOT_VALID'				=> '%s is not a valid migration.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Installed Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Installing Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Installing Schema: %s.',
+	'MIGRATION_NOT_VALID'				=> '%s ei ole kehtiv migratsioon.',
+	'MIGRATION_SCHEMA_DONE'				=> 'Installeeritud skeem: %1$s; Aeg: %2$.2f sekundit',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Paigaldan skeemi: %1$s; Aeg: %2$.2f sekundit',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Installeerin skeemi: %s.',
 
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Reverted Data: %1$s; Time: %2$.2f seconds',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Reverting Data: %1$s; Time: %2$.2f seconds',
@@ -60,22 +67,23 @@ $lang = array_merge($lang, array(
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Reverted Schema: %1$s; Time: %2$.2f seconds',
 	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Reverting Schema: %1$s; Time: %2$.2f seconds',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Reverting Schema: %s.',
+	
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migratsioon on vigane. If deklaratsiooni abistaja on kadunud parameetrist.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Migratsioon on vigane. If deklaratsiooni abistajal ei ole kehtivat kutsungit migratsiooni sammuks.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Migratsioon on vigane. Kohandatud kutsuvat funktsiooni ei õnnestunud kutsuda.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Migratsioon on vigane. Ebamäärane migratsiooni tööriista tüüp tekkinud.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Migratsioon on vigane. Ebamäärane migratsiooni tööriist on tekkinud.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Migratsioon on vigane. Ebamäärane migratsiooni tööriista meetod on tekkinud.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migration is invalid. An if statement helper is missing a condition.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migration is invalid. An if statement helper is missing a valid call to a migration step.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migration is invalid. A custom callable function could not be called.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migration is invalid. An unknown migration tool type was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migration is invalid. An undefined migration tool was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migration is invalid. An undefined migration tool method was encountered.',
+	'MODULE_ERROR'						=> 'Mooduli loomise ajal tekkis viga: %s',
+	'MODULE_EXISTS'						=> 'Moodul juba eksisteerib: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Mitmed moodulid koos antud pea mooduli nimetusega juba eksisteerivad: %s. Proovi kasutada enne või pärast võtmeid täpsustamaks mooduli paigutust.',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Nõutud mooduli fail puudub: %2$s',
+	'MODULE_NOT_EXIST'					=> 'Nõutud moodulit ei eksisteeri: %s',
+	
+	'PARENT_MODULE_FIND_ERROR'			=> 'Ei suuda tuvastada pea mooduli identifitseerijat: %s',
 
-	'MODULE_ERROR'						=> 'An error occurred while creating a module: %s',
-	'MODULE_EXISTS'						=> 'A module already exists: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Several modules with the given parent module langname already exist: %s. Try using before/after keys to clarify the module placement.',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'A required module info file is missing: %2$s',
-	'MODULE_NOT_EXIST'					=> 'A required module does not exist: %s',
+	'PERMISSION_NOT_EXIST'				=> 'Õiguste seadet "%s" ei eksisteeri enam ootamatult.',
 
-	'PARENT_MODULE_FIND_ERROR'			=> 'Unable to determine the parent module identifier: %s',
-	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" unexpectedly does not exist.',
-
-	'ROLE_NOT_EXIST'					=> 'The permission role "%s" unexpectedly does not exist.',
+	'ROLE_NOT_EXIST'					=> 'Õiguste rolli "%s" ootamatult ei eksisteeri enam.',
 ));
