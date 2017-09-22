@@ -1,20 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Teemast teatamine - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Tere, {USERNAME}.
 
-You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME != '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Saad selle teate, kuna tellid teemat "{TOPIC_TITLE}", "{SITENAME}" foorumis. See teema on saanud uue vastuse <!-- IF AUTHOR_NAME != '' -->{AUTHOR_NAME}<!-- ENDIF --> peale sinu eelmist külastust. Sa võid kasutada järgnevat linki uute vastuste vaatamiseks, selle teema kohta ei saadeta enam sulle teateid, kuni sa pole teemat külastanud.
 
-If you want to view the newest post made since your last visit, click the following link:
+Kui sa soovid vaadata uusimat postitust peale sinu viimast külastust, vajuta järgnevale lingile:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Kui soovid teemat vaadata, vajuta järgnevale lingile:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Kui soovid foorumit vaadata, vajuta järgnevale lingile:
 {U_FORUM}
 
-If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
-
+Kui sa ei soovi enam tellida seda teemat, võid vajutada "Ära telli teemat" linki teemas, või vajutada järgnevat linki:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

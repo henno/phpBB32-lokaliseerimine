@@ -1,19 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Teemast teatamine - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Tere, {USERNAME}.
 
-You are receiving this notification because "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+Sa saad selle teate, kuna "{AUTHOR_NAME}" on tsiteerinud sind teemas "{TOPIC_TITLE}" foorumis "{SITENAME}". Kasuta järgnevat linki, et vaadata vastust mis tehti.
 
-If you want to view the quoted post, click the following link:
+Kui sa soovid vaadata tsiteeritud postitust, siis vajuta järgnevale lingile:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Kui sa soovid vaadata teemat, siis vajuta järgnevale lingile:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Kui sa soovid vaadata foorumit, siis vajuta järgnevale lingile:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
+Kui sa enam ei soovi teateid saada, siis palun külasta järgnevat linki ja muuda seadeid:
 
 {U_NOTIFICATION_SETTINGS}
 

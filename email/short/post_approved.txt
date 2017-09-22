@@ -1,13 +1,14 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: Postitus on heaks kiidetud - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Tere {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Sulle tuli see kiri, sest sinu postitus "{POST_SUBJECT}" lehel "{SITENAME}" on heakskiidetud moderaatori või administraatori poolt.
 
-If you want to view the post, click the following link:
+Kui sa tahad vaadata postitust, vajuta allpool olevale lingile:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Kui sa tahad vaadata teemat, vajuta allpool olevale lingile:
 {U_VIEW_TOPIC}
+
 
 {EMAIL_SIG}
