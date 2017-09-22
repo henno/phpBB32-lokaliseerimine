@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: Kasutaja konto aktiveerimine
 
-Hello,
+Tere,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+kasutajakonto nimega "{USERNAME}" on deaktiveeritud või vastloodud, peaksid kontrollima andmeid (kui vaja) ja kasutama neid vastavalt.
 
-Use this link to view the user's profile:
+Kasuta seda linki, kui minna kasutaja profiili:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+Kasuta seda linki, et aktiveerida konto:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

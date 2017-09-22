@@ -1,7 +1,7 @@
-Subject: Report deleted - "{POST_SUBJECT}"
+Subject: Raport kustutatud - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Tere, {USERNAME}.
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was deleted by a moderator or by an administrator.
+Sa saad selle kirja, sest sinu raporteeritud postitus "{POST_SUBJECT}" teemas "{TOPIC_TITLE}" lehel "{SITENAME}" on kustutatud moderaatori või administraatorid poolt.
 
 {EMAIL_SIG}

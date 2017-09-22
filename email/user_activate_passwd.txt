@@ -1,17 +1,17 @@
-Subject: New password activation
+Subject: Parooli aktiveerimine "{SITENAME}" foorumis
 
-Hello {USERNAME}
+Tere, {USERNAME}!
 
-You are receiving this notification because you have (or someone pretending to be you has) requested a new password be sent for your account on "{SITENAME}". If you did not request this notification then please ignore it, if you keep receiving it please contact the board administrator.
+Sa saad selle teate "{SITENAME}" veebilehelt, kuna sa oled (või keegi üritab sind teeselda) soovinud omale uut parooli. Kui sa ei ole tellinud omale uut parooli, siis palun ignoreeri seda e-kirja. Kui sa jätkuvalt saad antud sisuga e-kirju, siis palun võta ühendust foorumi administraatoriga.
 
-To use the new password you need to activate it. To do this click the link provided below.
+Et kasutada oma uut parooli, siis selle peab enne aktiveerima. Et seda teha vajuta järgnevat linki:
 
 {U_ACTIVATE}
 
-If successful you will be able to login using the following password:
+Kui parool on edukalt muudetud, siis saad siseneda foorumisse järgneva parooliga:
 
-Password: {PASSWORD}
+Parool: {PASSWORD}
 
-You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
+Sa saad oma parooli muuta ka profiililehelt. Kui sul esineb probleeme, siis palun võta ühendust foorumi administraatoriga.
 
 {EMAIL_SIG}

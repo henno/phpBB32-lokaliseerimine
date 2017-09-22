@@ -1,21 +1,21 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Tere tulemast "{SITENAME}" foorumisse!
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Palume seda e-kirja alles hoida. Sinu kasutaja andmed on järgnevad:
 
 ----------------------------
-Username: {USERNAME}
+Kasutajanimi: {USERNAME}
 
-Board URL: {U_BOARD}
+Foorumi URL: {U_BOARD}
 ----------------------------
 
-Please visit the following link in order to activate your account:
+Külasta alljärgnevat linki oma kasutajakonto aktiveerimiseks:
 
 {U_ACTIVATE}
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Sinu parool on meie andmebaasis turvaliselt salvestatud, seega ei saa me seda ununemise korral taastada. Kui sa siiski unustad oma parooli, saad sisestada uue parooli, mis aktiveeritakse sinu kasutajakontol märgitud e-postiaadressi kasutades.
 
-Thank you for registering.
+Täname registreerimast.
 
 {EMAIL_SIG}

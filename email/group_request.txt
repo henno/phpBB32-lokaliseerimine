@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: Avaldus grupiga liitumiseks
 
-Dear {USERNAME},
+Lugupeetud {USERNAME},
 
-The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+kasutaja "{REQUEST_USERNAME}" on avaldanud soovi liituda "{GROUP_NAME}" grupiga, "{SITENAME}" foorumis.
+Et avaldus heaks kiita või tagasi lükata, mine alljärgnevale lingile:
 
 {U_PENDING}
 

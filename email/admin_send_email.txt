@@ -1,11 +1,11 @@
 
-The following is an email sent to you by an administrator of "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Järgneva e-kirja on teile saatnud foorumi "{SITENAME}" administraator. Kui see on rämpspost, mis sisaldab sõimu või muid solvavaid kommentaare, siis võta ühendust foorumi administraatoriga:
 
 {CONTACT_EMAIL}
 
-Include this full email (particularly the headers). 
+Pane kaasa täielik e-kiri (eriti päised). 
 
-Message sent to you follows:
+Sulle saadetud sõnum on järgnev:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

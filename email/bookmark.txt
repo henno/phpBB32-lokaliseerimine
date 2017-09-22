@@ -1,19 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Uue vastuse teavitus teemas - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Tere {USERNAME},
 
-You are receiving this notification because a topic you bookmarked, "{TOPIC_TITLE}" at "{SITENAME}", has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Saad selle teate foorumilt "{SITENAME}", kuna teemasse "{TOPIC_TITLE}", mille oled lisanud oma järjehoidjasse on saanud uue vastuse, peale sinu viimast külastust. Kasutades alljärgnevaid linke, saad vaadata vastust. Enne uusi teateid ei saadeta rohkem, kuniks sa külastad teemat.
 
-If you want to view the newest post made since your last visit, click the following link:
+Kui sa soovid vaadata uusimat postitust, mis on tehtud Sinu viimasest külastamisest, kasuta alljärgnevat linki:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Kui sa soovid vaadata teemat, siis kasuta alljärgnevat linki:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Kui sa soovid vaadata foorumit, siis kasuta alljärgnevat linki:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies to bookmarks, please update your notification settings here:
+Kui sa aga ei soovi enam saada uuendusi uutest vastustest teemades, mis lisatud järjehoidjasse, siis palun uuenda oma seadeid alljärgneva lingi kaudus:
 
 {U_NOTIFICATION_SETTINGS}
 

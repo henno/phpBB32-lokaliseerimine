@@ -1,7 +1,7 @@
-Subject: Your account has been deactivated
+Subject: Sinu kasutaja on deaktiveeritud
 
-Hello {USERNAME},
+Tere {USERNAME},
 
-Your account on "{SITENAME}" has been deactivated, most likely due to changes made to your profile. The administrator of the board will need to activate it before you can log in. You will receive another notification when this has occurred.
+Sinu kasutaja "{SITENAME}" foorumis on deaktiveeritud, tõenäoliselt profiilis tehtud muudatuste pärast. Foorumi administraator peab su kasutaja enne aktiveerima, kui saad sisse logida. Saad uue e-kirja, kui see on juhtunud.
 
 {EMAIL_SIG}

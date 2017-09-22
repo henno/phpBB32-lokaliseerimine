@@ -1,7 +1,8 @@
-Subject: Report deleted - "{PM_SUBJECT}"
+Subject: Raport kustutatud - "{PM_SUBJECT}"
 
 Hello {USERNAME},
 
-You are receiving this notification because the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" was deleted by a moderator or administrator.
+Saad selle teate, sest raport, mille esitasid privaatsõnumi "{PM_SUBJECT}" kohta "{SITENAME}" foorumites kustutati moderaatori või administraatori poolt.
+
 
 {EMAIL_SIG}

@@ -1,13 +1,14 @@
 
-Hello {TO_USERNAME},
+Tere, {TO_USERNAME}.
 
-The following is an email sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Järgnev on e-kiri, mille saatis {FROM_USERNAME} sinule "{SITENAME}" foorumist. Kui see kiri on rämpspost, mis sisaldab sõimu või muud solvavat kommentaari,
+palun võta ühendust foorumi administraatoriga järgneval aadressil:
 
 {BOARD_CONTACT}
 
-Include this full email (particularly the headers). Please note that the reply address to this email has been set to that of {FROM_USERNAME}.
+Pane kaasa ka see e-kiri (eriti päis). Vastamise aadressiks on seotud kasutaja {FROM_USERNAME} aadress.
 
-Message sent to you follows
+Sulle saadetud sõnum on järgnev
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

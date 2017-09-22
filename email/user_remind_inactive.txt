@@ -1,11 +1,11 @@
-Subject: Inactive account reminder
+Subject: Mitteaktiivse kasutaja meeldetuletus
 
-Hello {USERNAME},
+Tere, {USERNAME}.
 
-This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+See kiri on meeldetuletus sellest, et sinu konto "{SITENAME}" foorumis, registreerimiskuupäevaga {REGISTER_DATE}, on siiani aktiveerimata. Kui soovid praegu oma konto aktiveerida, saad seda teha alljärgneval lingil:
 
 {U_ACTIVATE}
 
-Thank you for registering at "{SITENAME}", we look forward to your participation.
+Täname registreerimast "{SITENAME}" foorumisse, me ootame teie osalemist.
 
 {EMAIL_SIG}

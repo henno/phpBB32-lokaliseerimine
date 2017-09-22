@@ -1,19 +1,20 @@
-Subject: phpBB installed
+Subject: phpBB on installeeritud
 
-Congratulations,
+Palju õnne,
 
-You have successfully installed phpBB on your server.
+Sa oled oma serverisse edukalt installeerinud phpBB foorumitarkvara.
 
-This email contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+See e-kiri sisaldab informatsiooni, mida peaksid hoidma turvaliselt. Sinu parool on meie andmebaasis turvaliselt salvestatud, seega ei saa me seda ununemise korral taastada. Kui sa siiski unustad oma parooli, saad sisestada uue parooli, mis aktiveeritakse sinu kasutajakontol märgitud e-posti aadressi kasutades.
 
 ----------------------------
-Username: {USERNAME}
+Kasutajanimi: {USERNAME}
 
-Board URL: {U_BOARD}
+Foorumi URL: {U_BOARD}
 ----------------------------
 
-Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - https://www.phpbb.com/support/
+Kasulikku informatsiooni phpBB installeerimise ja kasutamise kohta leiab docs kaustast või phpBB.com Support veebilehelt -
+https://www.phpbb.com/support/
 
-In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+Et hoida foorumit turvalisena, on rangelt soovitatav uuendada alati tarkvara, kui uuendused on olemas.
 
 {EMAIL_SIG}

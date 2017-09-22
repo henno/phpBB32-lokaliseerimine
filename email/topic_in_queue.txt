@@ -1,13 +1,13 @@
-Subject: Topic moderation notification - "{TOPIC_TITLE}"
+Subject: Teema vajab modereerimist - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Tere, {USERNAME}.
 
-You are receiving this notification because the topic "{TOPIC_TITLE}" at "{SITENAME}" needs approval.
+Saad selle teate, kuna teema "{TOPIC_TITLE}" foorumis "{SITENAME}" vajab heaks kiitu.
 
-If you want to view the topic, click the following link:
+Kui sa soovid vaadata teemat, siis vajuta järgnevale lingile:
 {U_VIEW_TOPIC}
 
-If you want to view the forum, click the following link:
+Kui sa soovid vaadata foorumit, siis vajuta järgnevat linki:
 {U_FORUM}
 
 {EMAIL_SIG}

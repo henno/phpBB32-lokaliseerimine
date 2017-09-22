@@ -1,10 +1,10 @@
-Subject: Topic disapproved - "{TOPIC_TITLE}"
+Subject: Teema ei ole heaks kiidetud - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Tere {USERNAME},
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Sulle tuli see kiri, sest sinu teema "{TOPIC_TITLE}" lehel "{SITENAME}" ei ole heaks kiidetud moderaatori või administraatori poolt.
 
-The following reason was given for the disapproval:
+Põhjus:
 
 {REASON}
 

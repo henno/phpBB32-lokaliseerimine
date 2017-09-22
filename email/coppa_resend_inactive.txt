@@ -1,42 +1,42 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Tere tulemast "{SITENAME}" foorumisse
 
 {WELCOME_MSG}
 
-In compliance with the COPPA, your account is currently inactive.
+COPPA lepinguga on su konto hetkel mitteaktiivne.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Palun prindi see välja, lase vanemal või hooldajal alla kirjutada ning saada see kas, faksiga:
 
 {FAX_INFO}
 
-OR mail it to:
+VÕI saada e-postile:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}" - {U_BOARD}
+------------------------------ LÕIKA SIIN ------------------------------
+Luba osa võtta lehest "{SITENAME}" - {U_BOARD}
 
-Username: {USERNAME}
-Email: {EMAIL_ADDRESS}
+Kasutajanimi: {USERNAME}
+E-post: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
-
-
-Parent or guardian 
-(print your name here): _____________________
-
-(sign here): __________________ 
-
-Date: _______________
-
------------------------------- CUT HERE ------------------------------
+MA OLEN OMA LAPSE ANTUD ANDMED ÜLE VAADANUD JA LUBAN LEHEKÜLJEL "{SITENAME}" NEED SALVESTADA.
+MA MÕISTAN, ET SEDA INFOT SAAB MUUTA IGAL AJAL, SISESTADES PAROOLI.
+MA MÕISTAN, ET VÕIN IGAL AJAL NÕUDA SELLE INFO EEMALDAMIST "{SITENAME}" LEHELT.
 
 
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Vanem või hooldaja
+(trüki siia oma nimi): _____________________
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+(allkiri): __________________
 
-Thank you for registering.
+Kuupäev: _______________
+
+------------------------------ LÕIKA SIIN ------------------------------
+
+
+Kui administraator on selle faksi või e-postiga saanud, aktiveeritakse su konto ja sulle teatatakse sellest.
+
+Sinu parool on meie andmebaasis turvaliselt salvestatud, seega ei saa me seda ununemise korral taastada. Kui sa siiski unustad oma parooli, saad sisestada uue parooli, mis aktiveeritakse sinu kasutajakontol märgitud e-postiaadressi kasutades.
+
+Täname, et registreerisid.
 
 {EMAIL_SIG}

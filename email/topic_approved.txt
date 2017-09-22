@@ -1,10 +1,10 @@
-Subject: Topic approved - "{TOPIC_TITLE}"
+Subject: Teema on heaks kiidetud - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Tere {USERNAME},
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was approved by a moderator or administrator.
+Sulle tuli see kiri, sest sinu teema "{TOPIC_TITLE}" lehel "{SITENAME}" on heaks kiidetud moderaatori või administraatori poolt.
 
-If you want to view the topic, click the following link:
+Kui sa tahad vaadata teemat, vajuta järgnevat linki:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}
